@@ -7,7 +7,7 @@ The R script performs all the tasks as follows:
 - Using the grep function i have extracted all the names that are mean or standard deviation. And with the help of the subset function i have extracted those measurements. I have also used the cbind function to add the coloumns for label subject to this subsetted data.
 
 3. Use descriptive activity names to name the activities in the data set:
-- To do this i have read the 'activity_labels.txt' and with the help of sub function in R made the names a little bit better by removing the numbers. Then by using the levels attribute of factors i have renamed the activities in the dataset.
+- To do this i have read the 'activity_labels.txt' and with the help of sub function in R made the names a little bit better by removing the numbers. Then by changing the levels of factors i have renamed the activities in the dataset.
 
 4. Appropriately label the data set with descriptive variable names:
 - I have used the sub function and regular expressions to edit the variable names to make them more descriptive and appropriate.
